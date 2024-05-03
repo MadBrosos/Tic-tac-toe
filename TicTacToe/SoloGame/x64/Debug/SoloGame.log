@@ -1,3 +1,2 @@
-﻿main.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
-main.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
-D:\BAV\00_Cours\02_C++\Tic Tac Toe Online\Tic-tac-toe\TicTacToe\x64\Debug\SoloGame.exe : fatal error LNK1120: 2 unresolved externals
+﻿  main.cpp
+  SoloGame.vcxproj -> C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\x64\Debug\SoloGame.exe
