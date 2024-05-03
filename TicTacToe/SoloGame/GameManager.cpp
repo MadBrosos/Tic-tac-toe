@@ -1,4 +1,5 @@
 #include "GameManager.h"
+#include <iostream>
 
 void GameManager::handleInput(sf::Event event)
 {
@@ -16,7 +17,7 @@ GameManager::GameManager()
 {
 	firstPlayer = new PlayerController();
 	secondPlayer = new PlayerController();
-	grid = new GridManager();
+	grid = new GridManager(100,100);
 
 
 }
@@ -34,6 +35,20 @@ int GameManager::initWindow()
 
     //game manager
     // player
+    
+	//Set Icon for the window
+	sf::Image icon;
+    if (!icon.loadFromFile("Assets/ReadDead.png")) {
+        std::cout << "Error loading icon" << std::endl;
+    }
+	window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
+
+
+	//Set Frame Rate
+	window.setFramerateLimit(60);
+
+	//game loop
+    
     while (window.isOpen())
     {
         sf::Event event;
