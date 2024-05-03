@@ -1,9 +1,14 @@
 #include "GameManager.h"
 #include <iostream>
 
-void GameManager::handleInput(sf::Event event)
+void GameManager::handleInput(sf::Event event, sf::RenderWindow& window)
 {
-
+    if (isFirstPlayerTurn) {
+        firstPlayer->handleInput(event, window);
+    }
+    else {
+        secondPlayer->handleInput(event, window);
+    }
 }
 
 void GameManager::display(sf::RenderWindow& window)
@@ -13,13 +18,14 @@ void GameManager::display(sf::RenderWindow& window)
 
 
 
+
+
 GameManager::GameManager()
 {
-	firstPlayer = new PlayerController();
-	secondPlayer = new PlayerController();
-	grid = new GridManager(100,100);
-
-
+    grid = new GridManager();
+	firstPlayer = new PlayerController(Team::Circle, grid);
+	secondPlayer = new PlayerController(Team::Cross, grid);
+	
 }
 
 GameManager::~GameManager()
@@ -37,11 +43,7 @@ int GameManager::initWindow()
     // player
     
 	//Set Icon for the window
-	sf::Image icon;
-    if (!icon.loadFromFile("Assets/ReadDead.png")) {
-        std::cout << "Error loading icon" << std::endl;
-    }
-	window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
+
 
 
 	//Set Frame Rate
@@ -57,7 +59,8 @@ int GameManager::initWindow()
             if (event.type == sf::Event::Closed)
                 window.close();
 
-            handleInput(event);
+            handleInput(event, window);
+            
         }
         //test
         window.clear(backgroundColor);

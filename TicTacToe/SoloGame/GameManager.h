@@ -8,19 +8,14 @@ public:
 	PlayerController* firstPlayer;
 	PlayerController* secondPlayer;
 	GridManager* grid;
-	
-	
-
 	GameManager();
 	~GameManager();
 	int initWindow();
 private:
 	const sf::Color backgroundColor = sf::Color(122, 122, 122, 255);
 	const int windowSize = 500;
-	void handleInput(sf::Event event);
+	void handleInput(sf::Event event, sf::RenderWindow &window);
 	void display(sf::RenderWindow& window);
-
-
-	
+	bool isFirstPlayerTurn = true;
 };
 
