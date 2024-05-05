@@ -1,47 +1,45 @@
 ﻿  GridManager.cpp
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,92): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,92): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,92): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,92): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,92): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,71): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,71): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,71): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,71): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(18,71): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,68): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,68): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,68): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,68): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,68): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,53): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,53): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,53): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,53): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(19,53): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,81): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,81): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,81): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,81): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,81): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,62): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,62): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,62): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(23,62): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,86): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,86): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,86): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,86): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,86): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,60): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,60): warning C4244:         with
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,60): warning C4244:         [
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,60): warning C4244:             T=float
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(24,60): warning C4244:         ]
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(39,102): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(39,61): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-  PlayerController.cpp
-  Tile.cpp
-  Generating Code...
-  SoloGame.vcxproj -> C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\x64\Debug\SoloGame.exe
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,92): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,92): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,92): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,92): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,92): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,71): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,71): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,71): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,71): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(31,71): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,68): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,68): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,68): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,68): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,68): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,53): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,53): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,53): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,53): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(32,53): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,81): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,81): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,81): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,81): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,81): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,62): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,62): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,62): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(36,62): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,86): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,86): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,86): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,86): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,86): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,60): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,60): warning C4244:         with
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,60): warning C4244:         [
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,60): warning C4244:             T=float
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,60): warning C4244:         ]
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(52,102): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(52,61): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  SoloGame.vcxproj -> D:\BAV\02_PROJET_ECOLE\BG4\C++\Tic-tac-toe\TicTacToe\x64\Debug\SoloGame.exe

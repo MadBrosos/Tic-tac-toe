@@ -1,4 +1,3 @@
 #pragma once
-
-    enum class Team { Neutral, Circle, Cross};
+enum class Team { Neutral, Circle, Cross};
 

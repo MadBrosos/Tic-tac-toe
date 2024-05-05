@@ -1,4 +1,6 @@
 #pragma once
+#include <functional>
+#include <string>
 #include <SFML/Graphics.hpp>
 #include "Team.h"
 #include "Tile.h"
@@ -17,13 +19,15 @@ private:
 	sf::Texture crossTexture;
 	sf::Texture blankTexture;
 	bool loadGridAssets();
+	bool isFull() const;
 	void createGridBackground();
 	void createTiles();
-	
+	void updateGridState(Tile* checkTile);
+	std::function<void(bool, Team)> onChangeStatus;
 public:
-
-	GridManager();
+	GridManager(std::function<void(bool, Team)> newChangeStatus);
 	void display(sf::RenderWindow& window);
+	void clearGrid();
 	bool TryChangeTileStatus(sf::Vector2f position, Team team);
 };
 

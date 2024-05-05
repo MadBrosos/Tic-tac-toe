@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\",
+  "WorkspaceRootPath": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\GridManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\GridManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\PlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\PlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\PlayerController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\PlayerController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\Team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Tile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\Tile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D76D63F8-D6B8-4DC2-9F9F-64295375175B}|SoloGame\\SoloGame.vcxproj|solutionrelative:SoloGame\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +46,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GridManager.h",
-              "DocumentMoniker": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.h",
-              "RelativeDocumentMoniker": "SoloGame\\GridManager.h",
-              "ToolTip": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.h",
-              "RelativeToolTip": "SoloGame\\GridManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-03T14:05:45.018Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GridManager.cpp",
-              "DocumentMoniker": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.cpp",
-              "RelativeDocumentMoniker": "SoloGame\\GridManager.cpp",
-              "ToolTip": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.cpp",
-              "RelativeToolTip": "SoloGame\\GridManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T13:56:59.09Z"
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.cpp",
-              "RelativeDocumentMoniker": "SoloGame\\GameManager.cpp",
-              "ToolTip": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.cpp",
-              "RelativeToolTip": "SoloGame\\GameManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Title": "GridManager.cpp",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.cpp",
+              "RelativeDocumentMoniker": "SoloGame\\GridManager.cpp",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.cpp",
+              "RelativeToolTip": "SoloGame\\GridManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T13:56:55.782Z",
+              "WhenOpened": "2024-05-05T10:51:58.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.h",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\PlayerController.h",
+              "RelativeDocumentMoniker": "SoloGame\\PlayerController.h",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\PlayerController.h",
+              "RelativeToolTip": "SoloGame\\PlayerController.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T10:41:50.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.cpp",
+              "RelativeDocumentMoniker": "SoloGame\\GameManager.cpp",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.cpp",
+              "RelativeToolTip": "SoloGame\\GameManager.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAIcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T10:19:11.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tile.cpp",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Tile.cpp",
+              "RelativeDocumentMoniker": "SoloGame\\Tile.cpp",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Tile.cpp",
+              "RelativeToolTip": "SoloGame\\Tile.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAArwCUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T09:32:09.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tile.h",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Tile.h",
+              "RelativeDocumentMoniker": "SoloGame\\Tile.h",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Tile.h",
+              "RelativeToolTip": "SoloGame\\Tile.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T09:32:02.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\main.cpp",
-              "RelativeDocumentMoniker": "SoloGame\\main.cpp",
-              "ToolTip": "D:\\BAV\\00_Cours\\02_C\u002B\u002B\\Tic Tac Toe Online\\Tic-tac-toe\\TicTacToe\\SoloGame\\main.cpp",
-              "RelativeToolTip": "SoloGame\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Title": "GridManager.h",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.h",
+              "RelativeDocumentMoniker": "SoloGame\\GridManager.h",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GridManager.h",
+              "RelativeToolTip": "SoloGame\\GridManager.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T09:16:06.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.h",
+              "RelativeDocumentMoniker": "SoloGame\\GameManager.h",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\GameManager.h",
+              "RelativeToolTip": "SoloGame\\GameManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T08:10:51.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Team.h",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Team.h",
+              "RelativeDocumentMoniker": "SoloGame\\Team.h",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\Team.h",
+              "RelativeToolTip": "SoloGame\\Team.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T08:25:38.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cpp",
+              "DocumentMoniker": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\PlayerController.cpp",
+              "RelativeDocumentMoniker": "SoloGame\\PlayerController.cpp",
+              "ToolTip": "D:\\BAV\\02_PROJET_ECOLE\\BG4\\C\u002B\u002B\\Tic-tac-toe\\TicTacToe\\SoloGame\\PlayerController.cpp",
+              "RelativeToolTip": "SoloGame\\PlayerController.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvxoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T09:30:57.492Z"
+              "WhenOpened": "2024-05-05T08:03:30.668Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -11,11 +11,20 @@ public:
 	GameManager();
 	~GameManager();
 	int initWindow();
+	void endPlayerTurn(bool isWin, Team teamSelected);
 private:
 	const sf::Color backgroundColor = sf::Color(122, 122, 122, 255);
 	const int windowSize = 500;
-	void handleInput(sf::Event event, sf::RenderWindow &window);
-	void display(sf::RenderWindow& window);
 	bool isFirstPlayerTurn = true;
+	bool isGameFinish = false;
+	sf::Text gameText;
+	sf::Text restartText;
+	sf::Font font;
+	void handleInput(sf::Event event, sf::RenderWindow& window);
+	void display(sf::RenderWindow& window);
+	void setStringText(sf::Text& text, float posY, std::string name);
+	void createAndLoadText();
+	void changeRestartTextStatus(bool isShow);
+	void restartGame();
 };
 

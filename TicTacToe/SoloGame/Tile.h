@@ -5,15 +5,17 @@ class Tile
 {
 	
 private:
+	unsigned int tileIndex;
 	Team status;
 	sf::Sprite* sprite;
 public:
 	Tile();
-	Tile(float positionX, float positionY, float size);
+	Tile(float positionX, float positionY, float size, unsigned int index);
 	~Tile();
+	bool checkTileClosestIsNeutral(sf::Vector2f& position);
 	void display(sf::RenderWindow& window);
 	void changeStatus(sf::Texture& newTexture, Team status);
-	
-	bool checkTileClosestIsNeutral(sf::Vector2f& position);
+	unsigned int getIndex() const;
+	Team getStatus() const;
 };
 

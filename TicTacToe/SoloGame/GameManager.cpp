@@ -3,29 +3,82 @@
 
 void GameManager::handleInput(sf::Event event, sf::RenderWindow& window)
 {
-    if (isFirstPlayerTurn) {
-        firstPlayer->handleInput(event, window);
+    if (!isGameFinish)
+    {
+	    if (isFirstPlayerTurn) {
+	        firstPlayer->handleInputGame(event, window);
+	    }
+	    else {
+	        secondPlayer->handleInputGame(event, window);
+	    }
     }
-    else {
-        secondPlayer->handleInput(event, window);
+    else
+    {
+        firstPlayer->handleInputEndGame(event);
     }
 }
 
 void GameManager::display(sf::RenderWindow& window)
 {
     grid->display(window);
+    window.draw(gameText);
+    window.draw(restartText);
+}
+
+void GameManager::createAndLoadText()
+{
+    //Game Text
+    this->font.loadFromFile("Assets/Pinky Love.ttf");
+    this->gameText.setFont(font);
+    this->gameText.setCharacterSize(25);
+    setStringText(gameText, 0, "Player 1 - It's time to play !");
+
+    //Restart Text
+    this->restartText.setFont(font);
+    this->restartText.setCharacterSize(25);
+}
+
+void GameManager::changeRestartTextStatus(bool isShow)
+{
+    if(isShow)
+    {
+        setStringText(restartText, windowSize - 50.0f , "Press Space to restart game");
+    }
+    else
+    {
+        setStringText(restartText, windowSize - 50.0f, "");
+    }
+}
+
+void GameManager::restartGame()
+{
+    grid->clearGrid();
+    isFirstPlayerTurn = true;
+    isGameFinish = false;
+    changeRestartTextStatus(isGameFinish);
+    setStringText(gameText, 0, "Player 1 - It's time to play !");
+}
+
+void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
+{
+	text.setString(name);
+    sf::FloatRect bounds = text.getLocalBounds();
+    text.setPosition(windowSize * 0.5f - bounds.width * 0.5f, posY);
 }
 
 
-
-
-
-GameManager::GameManager()
+GameManager::GameManager() : isFirstPlayerTurn(true), isGameFinish(false)
 {
-    grid = new GridManager();
-	firstPlayer = new PlayerController(Team::Circle, grid);
-	secondPlayer = new PlayerController(Team::Cross, grid);
-	
+    grid = new GridManager(std::bind(&GameManager::endPlayerTurn, this, std::placeholders::_1, std::placeholders::_2));
+    //Demande à Alain
+    //grid = new GridManager([this](auto&& PH1, auto&& PH2)
+    //{
+	   // endPlayerTurn(std::forward<decltype(PH1)>(PH1), std::forward<decltype(PH2)>(PH2));
+    //});
+    firstPlayer = new PlayerController(Team::Circle, grid, std::bind(&GameManager::restartGame, this));
+	secondPlayer = new PlayerController(Team::Cross, grid, std::bind(&GameManager::restartGame, this));
+
+    createAndLoadText();
 }
 
 GameManager::~GameManager()
@@ -39,18 +92,9 @@ int GameManager::initWindow()
 {
     sf::RenderWindow window(sf::VideoMode(windowSize, windowSize), "Tic Tac Toe - The Game");
 
-    //game manager
-    // player
-    
-	//Set Icon for the window
-
-
-
 	//Set Frame Rate
 	window.setFramerateLimit(60);
 
-	//game loop
-    
     while (window.isOpen())
     {
         sf::Event event;
@@ -69,4 +113,40 @@ int GameManager::initWindow()
         window.display();
     }
     return 0; 
+}
+
+void GameManager::endPlayerTurn(bool isWin, Team teamSelected)
+{
+    if(!isWin)
+    {
+        isFirstPlayerTurn = !isFirstPlayerTurn;
+        if(isFirstPlayerTurn)
+        {
+            setStringText(gameText, 0, "Player 1 - It's time to play !");
+        }
+        else
+        {
+            setStringText(gameText, 0, "Player 2 - It's time to play !");
+        }
+    }
+    else
+    {
+        isGameFinish = true;
+        changeRestartTextStatus(isGameFinish);
+	    if(teamSelected == Team::Neutral)
+	    {
+            setStringText(gameText, 0, "It's a Draw !");
+	    }
+        else
+        {
+	        if(isFirstPlayerTurn)
+	        {
+                setStringText(gameText, 0, "Congrats you win Player 1");
+	        }
+	        else
+	        {
+                setStringText(gameText, 0, "Congrats you win Player 2");
+            }
+        }
+    }
 }
