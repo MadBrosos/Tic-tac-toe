@@ -17,7 +17,7 @@ Tile::Tile(float positionX, float positionY, float scale, unsigned int index)
 
 Tile::~Tile()
 {
-
+	delete sprite;
 }
 
 void Tile::display(sf::RenderWindow& window)

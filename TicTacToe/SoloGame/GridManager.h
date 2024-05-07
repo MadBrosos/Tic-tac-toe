@@ -12,7 +12,7 @@ private:
 	int startX = 100;
 	int startY = 100;	
 	const sf::Color gridLineColor = sf::Color(0, 0, 0, 255);
-	sf::RectangleShape backgroundLines[8];
+	sf::RectangleShape* backgroundLines[8];
 	Tile* tiles[9];
 
 	sf::Texture circleTexture;
@@ -26,6 +26,7 @@ private:
 	std::function<void(bool, Team)> onChangeStatus;
 public:
 	GridManager(std::function<void(bool, Team)> newChangeStatus);
+	~GridManager();
 	void display(sf::RenderWindow& window);
 	void clearGrid();
 	bool TryChangeTileStatus(sf::Vector2f position, Team team);

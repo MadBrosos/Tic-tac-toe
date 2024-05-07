@@ -28,22 +28,23 @@ void GridManager::createGridBackground()
 {
     for (unsigned int i = 0; i < 4; i++)
     {
-        backgroundLines[i] = sf::RectangleShape(sf::Vector2f(gridSize + gridLineThickness, gridLineThickness));
-        backgroundLines[i].setPosition(sf::Vector2f(startX, startY + i * gridSize / 3));
+        backgroundLines[i] = new sf::RectangleShape(sf::Vector2f(gridSize + gridLineThickness, gridLineThickness));
+        backgroundLines[i]->setPosition(sf::Vector2f(startX, startY + i * gridSize / 3));
     }
     for (unsigned int i = 4; i < 8; i++)
     {
-        backgroundLines[i] = sf::RectangleShape(sf::Vector2f(gridLineThickness, gridSize));
-        backgroundLines[i].setPosition(sf::Vector2f(startX + (i - 4) * gridSize / 3, startY));
+        backgroundLines[i] = new sf::RectangleShape(sf::Vector2f(gridLineThickness, gridSize));
+        backgroundLines[i]->setPosition(sf::Vector2f(startX + (i - 4) * gridSize / 3, startY));
     }
     for (unsigned int i = 0; i < 8; i++)
     {
-        backgroundLines[i].setFillColor(gridLineColor);
+        backgroundLines[i]->setFillColor(gridLineColor);
     }
 }
 
 void GridManager::createTiles()
 {
+   
     for (unsigned int y = 0; y < 3; y++)
     {
         for (unsigned int x = 0; x < 3; x++)
@@ -133,6 +134,18 @@ GridManager::GridManager(std::function<void(bool, Team)> newChangeStatus)
     onChangeStatus = newChangeStatus;
 }
 
+GridManager::~GridManager()
+{
+    for (int i = 8; i >= 0; i--)
+    {
+        delete tiles[i];
+    }
+    for (int i = 7; i >= 0; i--)
+    {
+        delete backgroundLines[i];
+    }
+}
+
 
 void GridManager::display(sf::RenderWindow& window)
 {
@@ -142,7 +155,7 @@ void GridManager::display(sf::RenderWindow& window)
     }
     for (unsigned int i = 0; i < 8; i++)
     {
-        window.draw(backgroundLines[i]);
+        window.draw(*backgroundLines[i]);
 
     }
 }
