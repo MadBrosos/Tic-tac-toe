@@ -43,7 +43,8 @@ C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(3
 C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(37,61): warning C4244:         ]
 C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(53,102): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
 C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\SoloGame\GridManager.cpp(53,61): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-  main.cpp
   PlayerController.cpp
+  Tile.cpp
+  main.cpp
   Generating Code...
   SoloGame.vcxproj -> C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\x64\Debug\SoloGame.exe
