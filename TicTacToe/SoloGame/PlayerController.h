@@ -7,13 +7,12 @@
 class PlayerController
 {
 public :
-	PlayerController(Team newTeam, GridManager* newGrid, std::function<void()> newRestartCallback);
+	PlayerController(Team newTeam, GridManager* newGrid);
 	~PlayerController();
 	void handleInputGame(sf::Event event, sf::RenderWindow& window);
-	void handleInputEndGame(sf::Event event);
+	bool handleInputEndGame(sf::Event event);
 private:
 	Team team;
 	GridManager* grid;
-	std::function<void()> restartCallback;
 };
 

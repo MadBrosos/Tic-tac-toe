@@ -4,18 +4,18 @@
 ServerNetwork::ServerNetwork()
 {
 	std::cout << "SERVER" << std::endl;
-	SetupDLL();
-	CreateServerSocket();
-	BindSocket();
-	Listen();
-	AcceptSocket();
+	setupDLL();
+	createServerSocket();
+	bindSocket();
+	listen();
+	acceptSocket();
 }
 
 ServerNetwork::~ServerNetwork()
 {
 }
 
-void ServerNetwork::SetupDLL()
+void ServerNetwork::setupDLL()
 {
 	WORD wVersionRequested = MAKEWORD(2, 2);
 	wsaerr = WSAStartup(wVersionRequested, &wsaData);
@@ -27,7 +27,7 @@ void ServerNetwork::SetupDLL()
 	}
 }
 
-void ServerNetwork::CreateServerSocket()
+void ServerNetwork::createServerSocket()
 {
 	std::cout << "Create Server Socket" << std::endl;
 	serverSocket = INVALID_SOCKET;
@@ -41,7 +41,7 @@ void ServerNetwork::CreateServerSocket()
 	}
 }
 
-void ServerNetwork::BindSocket()
+void ServerNetwork::bindSocket()
 {
 	std::cout << "Bind Sockets" << std::endl;
 	sockaddr_in service;
@@ -60,7 +60,7 @@ void ServerNetwork::BindSocket()
 	}
 }
 
-void ServerNetwork::Listen()
+void ServerNetwork::listen()
 {
 	std::cout << "Listen" << std::endl;
 	if (listen(serverSocket, 1) == SOCKET_ERROR) {
@@ -71,7 +71,7 @@ void ServerNetwork::Listen()
 	}
 }
 
-void ServerNetwork::AcceptSocket()
+void ServerNetwork::acceptSocket()
 {
 	std::cout << "Accept connection" << std::endl;
 	 acceptSocket = accept(serverSocket, NULL, NULL);
@@ -85,7 +85,7 @@ void ServerNetwork::AcceptSocket()
 	}
 }
 
-void ServerNetwork::ReceiveFromClient()
+void ServerNetwork::receiveFromClient()
 {
 	std::cout << "receive" << std::endl;
 	char buffer[200];
@@ -100,7 +100,7 @@ void ServerNetwork::ReceiveFromClient()
 	}
 }
 
-void ServerNetwork::SendToClient()
+void ServerNetwork::sendToClient()
 {
 	char confirmationBuffer[200] = "Message Received";
 	bytesCount = send(acceptSocket, confirmationBuffer, 200, 0);

@@ -18,15 +18,16 @@ class ServerNetwork
 public:
 	ServerNetwork();
 	~ServerNetwork();
+	SOCKET socketAccepted;
 private:
-	void SetupDLL();
-	void CreateServerSocket();
-	void BindSocket();
-	void Listen();
-	void AcceptSocket();
-	void SendToClient();
-	void ReceiveFromClient();
-	SOCKET acceptSocket;
+	void setupDLL();
+	void createServerSocket();
+	void bindSocket();
+	void listen();
+	void acceptSocket();
+	void sendToClient();
+	void receiveFromClient();
+	
 	SOCKET serverSocket;
 	WSADATA wsaData;
 	int wsaerr;

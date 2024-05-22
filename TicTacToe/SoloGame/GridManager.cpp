@@ -1,5 +1,6 @@
 #include <iostream>>
 #include "GridManager.h"
+#include "ChangeTileStatus.h"
 
 bool GridManager::loadGridAssets()
 {
@@ -108,20 +109,27 @@ void GridManager::clearGrid()
     }
 }
 
-bool GridManager::TryChangeTileStatus(sf::Vector2f position, Team team)
+bool GridManager::tryChangeTileStatus(sf::Vector2f position, Team team)
 {
 
     for (unsigned int i = 0; i < 9; i++)
     {
         if (tiles[i]->checkTileClosestIsNeutral(position)) {
-
-            tiles[i]->changeStatus(team == Team::Circle ? circleTexture : crossTexture, team);
-            updateGridState(tiles[i]);
-            // send
+            ChangeTileStatus change;
+            change.team = team;
+            change.tileIndex = i;
+            changeTileStatus(change);
+            send(*currentSocket, (char*) &change, sizeof(ChangeTileStatus),0 );
         	return true;
         }
     }
     return false;
+}
+
+void GridManager::changeTileStatus(ChangeTileStatus change)
+{
+    tiles[change.tileIndex]->changeStatus(change.team == Team::Circle ? circleTexture : crossTexture, change.team);
+    updateGridState(tiles[change.tileIndex]);
 }
 
 
@@ -130,10 +138,11 @@ bool GridManager::TryChangeTileStatus(sf::Vector2f position, Team team)
 GridManager::GridManager(std::function<void(bool, Team)> newChangeStatus)
 {
     createGridBackground();
-
+   
     loadGridAssets();
     createTiles();
     onChangeStatus = newChangeStatus;
+   
 }
 
 GridManager::~GridManager()

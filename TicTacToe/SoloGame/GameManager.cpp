@@ -1,25 +1,7 @@
 #include "GameManager.h"
 #include <iostream>
 
-void GameManager::handleInput(sf::Event event, sf::RenderWindow& window)
-{
-    // handle input va etre différent en fonction du client et du serveur
-    if (!isGameFinish)
-    {
-        // send
-	    if (isFirstPlayerTurn) {
-	        firstPlayer->handleInputGame(event, window);
-	    }
-	    else {
-            // receive
-	        secondPlayer->handleInputGame(event, window);
-	    }
-    }
-    else
-    {
-        firstPlayer->handleInputEndGame(event);
-    }
-}
+
 
 void GameManager::display(sf::RenderWindow& window)
 {
@@ -60,6 +42,7 @@ void GameManager::restartGame()
     isGameFinish = false;
     changeRestartTextStatus(isGameFinish);
     setStringText(gameText, 0, "Player 1 - It's time to play !");
+   
 }
 
 void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
@@ -73,8 +56,8 @@ void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
 GameManager::GameManager() : isFirstPlayerTurn(true), isGameFinish(false)
 {
     grid = new GridManager(std::bind(&GameManager::endPlayerTurn, this, std::placeholders::_1, std::placeholders::_2));
-    firstPlayer = new PlayerController(Team::Circle, grid, std::bind(&GameManager::restartGame, this));
-	secondPlayer = new PlayerController(Team::Cross, grid, std::bind(&GameManager::restartGame, this));
+    firstPlayer = new PlayerController(Team::Circle, grid);
+	secondPlayer = new PlayerController(Team::Cross, grid );
 
     createAndLoadText();
 }
@@ -86,32 +69,7 @@ GameManager::~GameManager()
 	delete grid;
 }
 
-int GameManager::initWindow()
-{
-    sf::RenderWindow window(sf::VideoMode(windowSize, windowSize), "Tic Tac Toe - The Game");
 
-	//Set Frame Rate
-	window.setFramerateLimit(60);
-
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-
-            handleInput(event, window);
-            
-        }
-        //test
-        window.clear(backgroundColor);
-     
-        display(window);
-        window.display();
-    }
-    return 0; 
-}
 
 void GameManager::endPlayerTurn(bool isWin, Team teamSelected)
 {
