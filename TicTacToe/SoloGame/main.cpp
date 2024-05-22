@@ -25,9 +25,9 @@ int main()
 { 
 	DWORD threadId;
 	//CloseHandle(hdl);
-	hdl = CreateThread(NULL, 0, BasicThread, NULL, 0, &threadId);
-	std::cout << "test" << std::endl;
-	system("pause");
+//	hdl = CreateThread(NULL, 0, BasicThread, NULL, 0, &threadId);
+//	std::cout << "test" << std::endl;
+	//system("pause");
 	return 0;
 //	std::cout << "test" <<std::endl;
  // GameManager gameManager;

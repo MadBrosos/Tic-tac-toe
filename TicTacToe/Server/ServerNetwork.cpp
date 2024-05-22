@@ -7,7 +7,7 @@ ServerNetwork::ServerNetwork()
 	setupDLL();
 	createServerSocket();
 	bindSocket();
-	listen();
+	listenSocket();
 	acceptSocket();
 }
 
@@ -60,10 +60,10 @@ void ServerNetwork::bindSocket()
 	}
 }
 
-void ServerNetwork::listen()
+void ServerNetwork::listenSocket()
 {
 	std::cout << "Listen" << std::endl;
-	if (listen(serverSocket, 1) == SOCKET_ERROR) {
+	if (listenSocket(serverSocket, 1) == SOCKET_ERROR) {
 		std::cout << "Listen failed" << WSAGetLastError() << std::endl;
 	}
 	else {
