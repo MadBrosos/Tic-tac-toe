@@ -110,12 +110,14 @@ void GridManager::clearGrid()
 
 bool GridManager::TryChangeTileStatus(sf::Vector2f position, Team team)
 {
+
     for (unsigned int i = 0; i < 9; i++)
     {
         if (tiles[i]->checkTileClosestIsNeutral(position)) {
 
             tiles[i]->changeStatus(team == Team::Circle ? circleTexture : crossTexture, team);
             updateGridState(tiles[i]);
+            // send
         	return true;
         }
     }

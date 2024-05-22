@@ -15,35 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Client.cpp">
+    <ClCompile Include="mainClientUDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainClientTCP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Client.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="small.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="Client.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

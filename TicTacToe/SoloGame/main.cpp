@@ -2,7 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "GameManager.h"
 int main()
-{
-   GameManager gameManager;
+{ 
+	std::cout << "test" <<std::endl;
+  GameManager gameManager;
    return gameManager.initWindow();
 }
