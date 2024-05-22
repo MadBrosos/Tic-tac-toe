@@ -9,9 +9,9 @@ public:
 	PlayerController* firstPlayer;
 	PlayerController* secondPlayer;
 	GridManager* grid;
-	GameManager();
+	GameManager(std::function<void(bool)> newOnEndTurn);
 	~GameManager();
-
+	std::function<void(bool)> onEndTurn;
 	void endPlayerTurn(bool isWin, Team teamSelected);
 	const sf::Color backgroundColor = sf::Color(122, 122, 122, 255);
 	const int windowSize = 500;

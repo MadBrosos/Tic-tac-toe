@@ -119,7 +119,7 @@ bool GridManager::tryChangeTileStatus(sf::Vector2f position, Team team)
             change.team = team;
             change.tileIndex = i;
             changeTileStatus(change);
-            send(*currentSocket, (char*) &change, sizeof(ChangeTileStatus),0 );
+           std::cout << send(*currentSocket, (char*) &change, sizeof(ChangeTileStatus),0 ) << std::endl;
         	return true;
         }
     }

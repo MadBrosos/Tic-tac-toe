@@ -53,11 +53,12 @@ void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
 }
 
 
-GameManager::GameManager() : isFirstPlayerTurn(true), isGameFinish(false)
+GameManager::GameManager(std::function<void(bool)> newOnEndTurn) : isFirstPlayerTurn(true), isGameFinish(false)
 {
     grid = new GridManager(std::bind(&GameManager::endPlayerTurn, this, std::placeholders::_1, std::placeholders::_2));
     firstPlayer = new PlayerController(Team::Circle, grid);
 	secondPlayer = new PlayerController(Team::Cross, grid );
+    onEndTurn = newOnEndTurn;
 
     createAndLoadText();
 }
@@ -105,4 +106,5 @@ void GameManager::endPlayerTurn(bool isWin, Team teamSelected)
             }
         }
     }
+    onEndTurn(isWin);
 }

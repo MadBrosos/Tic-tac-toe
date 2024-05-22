@@ -23,9 +23,11 @@ public:
 	int init(SOCKET& socket, bool isServer);
 	void handleInput(sf::Event event, sf::RenderWindow& window);
 	void display(sf::RenderWindow& window);
-	DWORD WINAPI receivedRestartGame(LPVOID param);
-	DWORD WINAPI receivedChangedGridTile(LPVOID param);
-
+	static DWORD WINAPI receivedRestartGameThread(LPVOID param);
+	static DWORD WINAPI receivedChangedGridTileThread(LPVOID param);
+	void  receivedRestartGame();
+	void receivedChangedGridTile();
+	void beginTurn(bool isWin);
 	private:
 		SOCKET* currentSocket;
 	sf::Vector2f mousePosition;
@@ -34,7 +36,11 @@ public:
 	PlayerController* currentPlayerController;
 	bool restartGame = false;
 	bool isServer = true;
-	HANDLE hdl;
-	DWORD threadId;
+	HANDLE restartHdl;
+	DWORD restartThreadId;
+
+	HANDLE changedTileHdl;
+	DWORD changeTileThreadId;
+
 };
 
