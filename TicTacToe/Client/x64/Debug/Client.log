@@ -1,2 +1,4 @@
-﻿  mainClient.cpp
+﻿  ClientManager.cpp
+  mainClientTCP.cpp
+  Generating Code...
   Client.vcxproj -> C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\x64\Debug\Client.exe

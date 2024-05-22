@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "PlayerController.h"
 #include "GridManager.h"
+
 class GameManager
 {
 public:

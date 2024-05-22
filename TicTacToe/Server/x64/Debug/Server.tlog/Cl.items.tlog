@@ -1,1 +1,4 @@
-C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\mainServer.cpp;C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\x64\Debug\mainServer.obj
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\mainServerUDP.cpp;C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\x64\Debug\mainServerUDP.obj
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\mainServerTCP.cpp;C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\x64\Debug\mainServerTCP.obj
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\ServerManager.cpp;C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\x64\Debug\ServerManager.obj
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\ServerNetwork.cpp;C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\Server\x64\Debug\ServerNetwork.obj
