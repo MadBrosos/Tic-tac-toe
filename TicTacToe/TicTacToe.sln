@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoloGame", "SoloGame\SoloGame.vcxproj", "{D76D63F8-D6B8-4DC2-9F9F-64295375175B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{F649AF65-95A2-42CE-92FA-66FE8546F6CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D76D63F8-D6B8-4DC2-9F9F-64295375175B} = {D76D63F8-D6B8-4DC2-9F9F-64295375175B}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{3D8A57FC-03E2-4953-AE48-DCE7ACE4B690}"
 EndProject

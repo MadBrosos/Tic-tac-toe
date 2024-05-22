@@ -139,6 +139,11 @@
     <ClInclude Include="ServerManager.h" />
     <ClInclude Include="ServerNetwork.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SoloGame\SoloGame.vcxproj">
+      <Project>{d76d63f8-d6b8-4dc2-9f9f-64295375175b}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

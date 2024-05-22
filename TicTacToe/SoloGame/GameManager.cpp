@@ -3,12 +3,15 @@
 
 void GameManager::handleInput(sf::Event event, sf::RenderWindow& window)
 {
+    // handle input va etre différent en fonction du client et du serveur
     if (!isGameFinish)
     {
+        // send
 	    if (isFirstPlayerTurn) {
 	        firstPlayer->handleInputGame(event, window);
 	    }
 	    else {
+            // receive
 	        secondPlayer->handleInputGame(event, window);
 	    }
     }
@@ -70,11 +73,6 @@ void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
 GameManager::GameManager() : isFirstPlayerTurn(true), isGameFinish(false)
 {
     grid = new GridManager(std::bind(&GameManager::endPlayerTurn, this, std::placeholders::_1, std::placeholders::_2));
-    //Demande à Alain
-    //grid = new GridManager([this](auto&& PH1, auto&& PH2)
-    //{
-	   // endPlayerTurn(std::forward<decltype(PH1)>(PH1), std::forward<decltype(PH2)>(PH2));
-    //});
     firstPlayer = new PlayerController(Team::Circle, grid, std::bind(&GameManager::restartGame, this));
 	secondPlayer = new PlayerController(Team::Cross, grid, std::bind(&GameManager::restartGame, this));
 

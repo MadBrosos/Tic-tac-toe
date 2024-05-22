@@ -5,7 +5,7 @@
 int  main()
 {
 	ServerManager serverManager;
-	system("pause");
+	return serverManager.Init();
 	/*
 
 	std::cout << "SERVER" << std::endl;
