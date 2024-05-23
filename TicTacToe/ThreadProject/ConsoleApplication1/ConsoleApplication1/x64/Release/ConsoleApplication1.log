@@ -1,0 +1,61 @@
+﻿  ConsoleApplication1.cpp
+  Controller.cpp
+  Core.cpp
+  Display.cpp
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(8,53): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(8,46): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(25,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(25,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(45,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(46,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(76,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(80,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(80,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(86,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(87,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(88,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(91,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(91,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(97,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(97,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(158,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,47): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,43): warning C4244:         with
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,43): warning C4244:         [
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,43): warning C4244:             T=float
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,43): warning C4244:         ]
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,29): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,29): warning C4244:         with
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,29): warning C4244:         [
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,29): warning C4244:             T=float
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(161,29): warning C4244:         ]
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,46): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,42): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,42): warning C4244:         with
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,42): warning C4244:         [
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,42): warning C4244:             T=float
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,42): warning C4244:         ]
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,28): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,28): warning C4244:         with
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,28): warning C4244:         [
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,28): warning C4244:             T=float
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(164,28): warning C4244:         ]
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,33): warning C4244:         with
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,33): warning C4244:         [
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,33): warning C4244:             T=float
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,33): warning C4244:         ]
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,30): warning C4244:         with
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,30): warning C4244:         [
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,30): warning C4244:             T=float
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(178,30): warning C4244:         ]
+E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\ConsoleApplication1\Display.cpp(180,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  GameData.cpp
+  Generating code
+  4 of 147 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ConsoleApplication1.vcxproj -> E:\Repos\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\x64\Release\ConsoleApplication1.exe

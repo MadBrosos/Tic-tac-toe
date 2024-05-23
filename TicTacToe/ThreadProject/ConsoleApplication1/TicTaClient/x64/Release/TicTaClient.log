@@ -1,0 +1,45 @@
+﻿  Controller.cpp
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\Controller.cpp(67,10): warning C4309: 'return': truncation of constant value
+  Model.cpp
+  ModelDisplayer.cpp
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(7,53): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(7,46): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(23,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(23,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(40,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(41,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(64,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(68,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(68,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(74,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(75,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(76,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(79,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(79,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(85,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(85,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(147,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(148,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(150,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(152,24): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(154,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(156,23): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(171,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(171,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\TicTaClient\ModelDisplayer.cpp(173,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  TicTaClient.cpp
+  View.cpp
+  Generating code
+  3 of 177 functions ( 1.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TicTaClient.vcxproj -> D:\Unreal Projects\TicTacToeMultiThingy\MorpionMultiJoueurThreading\ConsoleApplication1\x64\Release\TicTaClient.exe

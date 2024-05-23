@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Display.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Display.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Display.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\GameData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\GameData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9EF700F-2FF0-4797-8680-D813528C926A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Core.h",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Core.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Core.h",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Core.h",
+              "RelativeToolTip": "ConsoleApplication1\\Core.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T14:44:20.267Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Game.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Game.h",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Game.h",
+              "RelativeToolTip": "ConsoleApplication1\\Game.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T14:54:45.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Core.cpp",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Core.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Core.cpp",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Core.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Core.cpp",
+              "ViewState": "AQIAACAAAAAAAAAAAIA1wC4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T14:44:30.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Controller.cpp",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Controller.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Controller.cpp",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Controller.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Controller.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T14:39:21.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Controller.h",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Controller.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Controller.h",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Controller.h",
+              "RelativeToolTip": "ConsoleApplication1\\Controller.h",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T14:22:35.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Display.h",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Display.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Display.h",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Display.h",
+              "RelativeToolTip": "ConsoleApplication1\\Display.h",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T09:53:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Display.cpp",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Display.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Display.cpp",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\Display.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Display.cpp",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T09:54:40.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameData.cpp",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\GameData.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\GameData.cpp",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\GameData.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\GameData.cpp",
+              "ViewState": "AQIAADcAAAAAAAAAAAAYwDkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T10:48:11.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameData.h",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\GameData.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\GameData.h",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\GameData.h",
+              "RelativeToolTip": "ConsoleApplication1\\GameData.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T10:41:05.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConsoleApplication1.cpp",
+              "DocumentMoniker": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "C:\\Users\\h.ramiandrasoa\\Desktop\\Cours\\cpp\\MorpionMultiJoueurThreading\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2023-10-17T10:31:01.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
