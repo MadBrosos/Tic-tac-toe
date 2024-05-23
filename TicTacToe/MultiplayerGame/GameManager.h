@@ -25,5 +25,6 @@ public:
 	void createAndLoadText();
 	void changeRestartTextStatus(bool isShow);
 	void restartGame();
+
 };
 

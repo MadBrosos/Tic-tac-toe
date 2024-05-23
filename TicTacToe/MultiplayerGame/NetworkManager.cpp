@@ -7,9 +7,7 @@ DWORD changeTileThreadId;
 NetworkManager::NetworkManager()
 {
     gameManager = new GameManager(std::bind(&NetworkManager::beginTurn, this, std::placeholders::_1));
-
     hMutex = CreateMutex(NULL, false, LPCWSTR(mutexName));
-    
 }
 
 
@@ -38,7 +36,7 @@ int NetworkManager::init(SOCKET &inSocket, bool inIsServer)
         }
         //test
         window.clear(gameManager->backgroundColor);
-
+        update();
         display(window);
         window.display();
     }
@@ -57,16 +55,21 @@ void NetworkManager::handleInput(sf::Event event, sf::RenderWindow& window)
     }
     else
     {
-        if (currentPlayerController->handleInputEndGame(event)) { 
-            CloseHandle(restartHdl);
-      //    ReleaseMutex(hMutex);
-     
-            gameManager->restartGame();
-            restartGame = true;
-            beginTurn(false);
-          std::cout<< send(*currentSocket, (char*)&restartGame, sizeof(bool), 0) << std::endl;
-        
+        if (isServer) {
+            if (currentPlayerController->handleInputEndGame(event)) {
+                if (currentPlayerController->handleInputEndGame(event)) {
+               
+                    //    ReleaseMutex(hMutex);
+                    gameManager->restartGame();
+                    restartGame = true;
+                    beginTurn(false);
+                    std::cout << send(*currentSocket, (char*)&restartGame, sizeof(bool), 0) << std::endl;
+
+                }
+            }
         }
+       
+      
        
     }
 }
@@ -106,10 +109,12 @@ DWORD WINAPI NetworkManager::receivedChangedGridTileThread(LPVOID param)
 {
     std::cout << "changed grid tile thread  " << std::endl;
      WaitForSingleObject(hMutex, INFINITE);
+
      NetworkManager* networkManager = (NetworkManager*)param;
    
     std::cout << "launch grid tile thread  " << std::endl;
     try {
+      
     networkManager->receivedChangedGridTile();
     }
     
@@ -137,9 +142,7 @@ void NetworkManager::receivedRestartGame()
     }
     else {
         std::cout << "restart received " << std::endl;
-        gameManager->restartGame();
-
-        beginTurn(false);
+        needUpdateRestart = true; 
     
     }
 }
@@ -153,7 +156,8 @@ void NetworkManager::receivedChangedGridTile()
     }
     else {
         std::cout << "change tile received " << std::endl;
-        gameManager->grid->changeTileStatus(changeTile);
+       
+        needUpdateTile = true;
     
     }
     
@@ -171,11 +175,29 @@ void NetworkManager::receivedChangedGridTile()
 void NetworkManager::beginTurn(bool isWin)
 {
     if (isWin) {
-        restartHdl = CreateThread(NULL, 0, receivedRestartGameThread, this, 0, &restartThreadId);
+        if(!isServer)
+ 
+            restartHdl = CreateThread(NULL, 0, receivedRestartGameThread, this, 0, &restartThreadId);
     }
     else {
         if (gameManager->isFirstPlayerTurn != isServer) {
             changedTileHdl = CreateThread(NULL, 0, receivedChangedGridTileThread, this, 0, &changeTileThreadId);
         }
+    }
+}
+
+void NetworkManager::update()
+{
+    if (needUpdateRestart) {
+
+        gameManager->restartGame();
+        beginTurn(false);
+        needUpdateRestart = false; 
+
+    }
+    if (needUpdateTile) {
+
+        needUpdateTile = false; 
+        gameManager->grid->changeTileStatus(changeTile);
     }
 }

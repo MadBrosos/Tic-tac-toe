@@ -16,7 +16,7 @@ void GameManager::createAndLoadText()
     this->font.loadFromFile("Assets/Pinky Love.ttf");
     this->gameText.setFont(font);
     this->gameText.setCharacterSize(25);
-    setStringText(gameText, 0, "Player 1 - It's time to play !");
+    setStringText(gameText, 0, "Server - It's time to play !");
 
     //Restart Text
     this->restartText.setFont(font);
@@ -27,7 +27,7 @@ void GameManager::changeRestartTextStatus(bool isShow)
 {
     if(isShow)
     {
-        setStringText(restartText, windowSize - 50.0f , "Press Space to restart game");
+        setStringText(restartText, windowSize - 50.0f , "Server Press Space to restart game");
     }
     else
     {
@@ -41,9 +41,10 @@ void GameManager::restartGame()
     isFirstPlayerTurn = true;
     isGameFinish = false;
     changeRestartTextStatus(isGameFinish);
-    setStringText(gameText, 0, "Player 1 - It's time to play !");
+    setStringText(gameText, 0, "Server - It's time to play !");
    
 }
+
 
 void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
 {
@@ -79,11 +80,11 @@ void GameManager::endPlayerTurn(bool isWin, Team teamSelected)
         isFirstPlayerTurn = !isFirstPlayerTurn;
         if(isFirstPlayerTurn)
         {
-            setStringText(gameText, 0, "Player 1 - It's time to play !");
+            setStringText(gameText, 0, "Server - It's time to play !");
         }
         else
         {
-            setStringText(gameText, 0, "Player 2 - It's time to play !");
+            setStringText(gameText, 0, "Client - It's time to play !");
         }
     }
     else
@@ -98,11 +99,11 @@ void GameManager::endPlayerTurn(bool isWin, Team teamSelected)
         {
 	        if(isFirstPlayerTurn)
 	        {
-                setStringText(gameText, 0, "Congrats you win Player 1");
+                setStringText(gameText, 0, "Congrats you win Server");
 	        }
 	        else
 	        {
-                setStringText(gameText, 0, "Congrats you win Player 2");
+                setStringText(gameText, 0, "Congrats you win Client");
             }
         }
     }

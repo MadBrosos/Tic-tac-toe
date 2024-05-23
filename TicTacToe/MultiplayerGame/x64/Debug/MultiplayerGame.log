@@ -1,2 +1,58 @@
-﻿  ServerManager.cpp
+﻿  ChangeTileStatus.cpp
+  ClientNetwork.cpp
+  GameManager.cpp
+  GridManager.cpp
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,96): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,96): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,96): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,96): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,96): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,75): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,75): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,75): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,75): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(32,75): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,69): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,69): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,69): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,69): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,69): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,54): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,54): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,54): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(33,54): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,85): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,85): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,85): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,85): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,85): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,66): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,66): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,66): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,66): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(37,66): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,87): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,87): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,87): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,87): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,87): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,61): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,61): warning C4244:         with
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,61): warning C4244:         [
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,61): warning C4244:             T=float
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(38,61): warning C4244:         ]
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(54,102): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\GridManager.cpp(54,61): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  main.cpp
+  mainClientTCP.cpp
+  mainServerTCP.cpp
+  NetworkManager.cpp
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\NetworkManager.cpp(93,16): warning C4101: 'error': unreferenced local variable
+C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\MultiplayerGame\NetworkManager.cpp(121,15): warning C4101: 'error': unreferenced local variable
+  PlayerController.cpp
+  ServerNetwork.cpp
+  Tile.cpp
+  Generating Code...
   MultiplayerGame.vcxproj -> C:\Users\p.serenrosso\Downloads\Tic-tac-toe\TicTacToe\x64\Debug\MultiplayerGame.exe
