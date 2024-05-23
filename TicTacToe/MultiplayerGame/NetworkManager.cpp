@@ -36,7 +36,7 @@ int NetworkManager::init(SOCKET &inSocket, bool inIsServer)
         }
         //test
         window.clear(gameManager->backgroundColor);
-
+        update();
         display(window);
         window.display();
     }
@@ -142,9 +142,7 @@ void NetworkManager::receivedRestartGame()
     }
     else {
         std::cout << "restart received " << std::endl;
-        gameManager->restartGame();
-
-        beginTurn(false);
+        needUpdateRestart = true; 
     
     }
 }
@@ -158,8 +156,8 @@ void NetworkManager::receivedChangedGridTile()
     }
     else {
         std::cout << "change tile received " << std::endl;
-        Sleep(1000);
-        gameManager->grid->changeTileStatus(changeTile);
+       
+        needUpdateTile = true;
     
     }
     
@@ -185,5 +183,21 @@ void NetworkManager::beginTurn(bool isWin)
         if (gameManager->isFirstPlayerTurn != isServer) {
             changedTileHdl = CreateThread(NULL, 0, receivedChangedGridTileThread, this, 0, &changeTileThreadId);
         }
+    }
+}
+
+void NetworkManager::update()
+{
+    if (needUpdateRestart) {
+
+        gameManager->restartGame();
+        beginTurn(false);
+        needUpdateRestart = false; 
+
+    }
+    if (needUpdateTile) {
+
+        needUpdateTile = false; 
+        gameManager->grid->changeTileStatus(changeTile);
     }
 }

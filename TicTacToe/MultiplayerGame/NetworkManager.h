@@ -32,13 +32,17 @@ public:
 		SOCKET* currentSocket;
 	sf::Vector2f mousePosition;
 	GameManager* gameManager;
-	ChangeTileStatus changeTile;
+
 	PlayerController* currentPlayerController;
 	bool restartGame = false;
 	bool isServer = true;
 
 
 	const char* mutexName = "Mutex1";
+	ChangeTileStatus changeTile;
+	bool needUpdateTile = false;
+	bool needUpdateRestart = false;
+	void update();
 
 
 

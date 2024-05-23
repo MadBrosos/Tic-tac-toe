@@ -45,6 +45,7 @@ void GameManager::restartGame()
    
 }
 
+
 void GameManager::setStringText(sf::Text &text,float posY,  std::string name)
 {
 	text.setString(name);
