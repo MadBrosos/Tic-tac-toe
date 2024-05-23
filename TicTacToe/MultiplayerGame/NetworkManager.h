@@ -36,11 +36,11 @@ public:
 	PlayerController* currentPlayerController;
 	bool restartGame = false;
 	bool isServer = true;
-	HANDLE restartHdl;
-	DWORD restartThreadId;
 
-	HANDLE changedTileHdl;
-	DWORD changeTileThreadId;
+
+	const char* mutexName = "Mutex1";
+
+
 
 };
 
