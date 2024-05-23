@@ -19,14 +19,15 @@ class ClientNetwork
 {
 public:
 	ClientNetwork();
-	~ClientNetwork();
-private:
-	void SetupDLL();
-	void CreateClientSocket();
-	void ConnectSocket();
-	void SendToServer();
-	void ReceiveFromServer();
+	~ClientNetwork();	
 	SOCKET clientSocket;
+private:
+	void setupDLL();
+	void createClientSocket();
+	void connectSocket();
+	void sendToServer();
+	void receiveFromServer();
+
 	WSADATA wsaData;
 	int wsaerr;
 	int bytesCount;

@@ -5,9 +5,9 @@ using namespace std;
 ClientNetwork::ClientNetwork()
 {
 	cout << "Client" << endl;
-	SetupDLL();
-	CreateClientSocket();
-	ConnectSocket();
+	setupDLL();
+	createClientSocket();
+	connectSocket();
 }
 
 ClientNetwork::~ClientNetwork()
@@ -17,7 +17,7 @@ ClientNetwork::~ClientNetwork()
 	WSACleanup();
 }
 
-void ClientNetwork::SetupDLL()
+void ClientNetwork::setupDLL()
 {
 	cout << "Set up DLL" << endl;
 	WORD wVersionRequested = MAKEWORD(2, 2);
@@ -30,7 +30,7 @@ void ClientNetwork::SetupDLL()
 	}
 }
 
-void ClientNetwork::CreateClientSocket()
+void ClientNetwork::createClientSocket()
 {
 	cout << "Create Client Socket" << endl;
 	clientSocket = INVALID_SOCKET;
@@ -42,7 +42,7 @@ void ClientNetwork::CreateClientSocket()
 	}
 }
 
-void ClientNetwork::ConnectSocket()
+void ClientNetwork::connectSocket()
 {
 	cout << "Connected Sockets" << endl;
 	sockaddr_in service;
@@ -60,7 +60,7 @@ void ClientNetwork::ConnectSocket()
 	}
 }
 
-void ClientNetwork::SendToServer()
+void ClientNetwork::sendToServer()
 {
 	bytesCount = send(clientSocket, buffer, 200, 0);
 	if (bytesCount > 0) {
@@ -73,7 +73,7 @@ void ClientNetwork::SendToServer()
 	}
 }
 
-void ClientNetwork::ReceiveFromServer()
+void ClientNetwork::receiveFromServer()
 {
 	bytesCount = recv(clientSocket, buffer, 200, 0);
 	if (bytesCount > 0) {

@@ -1,0 +1,118 @@
+#include "ServerNetwork.h"
+
+using namespace std;
+ServerNetwork::ServerNetwork()
+{
+	std::cout << "SERVER" << std::endl;
+	setupDLL();
+	createServerSocket();
+	bindSocket();
+	listenSocket();
+	acceptSocket();
+	sendToClient();
+}
+
+ServerNetwork::~ServerNetwork()
+{
+}
+
+void ServerNetwork::setupDLL()
+{
+	WORD wVersionRequested = MAKEWORD(2, 2);
+	wsaerr = WSAStartup(wVersionRequested, &wsaData);
+	if (wsaerr != 0) {
+		cout << ("DLL not found")<<endl;
+	}
+	else {
+		std::cout << "Dll found " << wsaData.szSystemStatus << std::endl;
+	}
+}
+
+void ServerNetwork::createServerSocket()
+{
+	std::cout << "Create Server Socket" << std::endl;
+	serverSocket = INVALID_SOCKET;
+	serverSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	if (serverSocket == INVALID_SOCKET) {
+		WSACleanup();
+		cout << "Socket Invalid" << WSAGetLastError() << endl;
+	}
+	else {
+		std::cout << "Socket Valid" << std::endl;
+	}
+}
+
+void ServerNetwork::bindSocket()
+{
+	std::cout << "Bind Sockets" << std::endl;
+	sockaddr_in service;
+	service.sin_family = AF_INET;
+	InetPton(AF_INET, _T("127.0.0.1"), &service.sin_addr.s_addr);
+	service.sin_port = htons(DEFAULT_PORT);
+	if (bind(serverSocket, (SOCKADDR*)&service, sizeof(service)) == SOCKET_ERROR)
+	{
+		cout << "Bind failed" << WSAGetLastError() << endl;
+		closesocket(serverSocket);
+		WSACleanup();
+		
+	}
+	else {
+		std::cout << "Bind Success" << std::endl;
+	}
+}
+
+void ServerNetwork::listenSocket()
+{
+	std::cout << "Listen" << std::endl;
+	if (listen(serverSocket, 1) == SOCKET_ERROR) {
+		std::cout << "Listen failed" << WSAGetLastError() << std::endl;
+	}
+	else {
+		std::cout << "Listen is Ok waiting for connection..." << std::endl;
+	}
+}
+
+void ServerNetwork::acceptSocket()
+{
+	std::cout << "Accept connection" << std::endl;
+	socketAccepted = accept(serverSocket, NULL, NULL);
+	if (socketAccepted == INVALID_SOCKET) {
+		cout << "Accepted failed" << WSAGetLastError() << endl;		
+		closesocket(serverSocket);
+		WSACleanup();
+	}
+	else {
+		std::cout << "Accepted connection" << std::endl;
+	}
+}
+
+void ServerNetwork::receiveFromClient()
+{
+	std::cout << "receive" << std::endl;
+	char buffer[200];
+	bytesCount = recv(socketAccepted, buffer, 200, 0);
+	if (bytesCount > 0) {
+		std::cout << "message received" << buffer << std::endl;
+	}
+	else {
+		std::cout << "message failed" << buffer << std::endl;
+		closesocket(socketAccepted);
+		WSACleanup();
+	}
+}
+
+void ServerNetwork::sendToClient()
+{
+	char confirmationBuffer[200] = "Message Received";
+	bytesCount = send(socketAccepted, confirmationBuffer, 200, 0);
+	if (bytesCount > 0) {
+		std::cout << "message sent" << confirmationBuffer << std::endl;
+	}
+	else {
+		std::cout << "message failed to sent" << confirmationBuffer << std::endl;
+		closesocket(socketAccepted);
+		WSACleanup();
+	}
+}
+
+

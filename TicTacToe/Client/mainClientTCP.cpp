@@ -3,5 +3,5 @@ int  main()
 {
     ClientManager clientManager;
     system("pause");
-    return clientManager.Init();
+    return clientManager.init();
 }
